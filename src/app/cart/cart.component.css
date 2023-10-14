@@ -1,0 +1,37 @@
+.cart-page {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  height: 100vh;
+  max-width: 520px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #f5f5f5;
+}
+
+header i {
+  font-size: 24px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+header h1 {
+  font-size: 24px;
+}
+
+.cart-content {
+  padding: 20px;
+  overflow-y: auto;
+  /* Add styling for cart items and details here */
+}
+
+/* Style the white screen for screens above 520px */
+.white-screen {
+  background-color: #fff;
+  height: 100vh;
+}
